@@ -1,0 +1,11 @@
+Classify the sentiment of the customer review below.
+
+Return ONLY a JSON object with exactly this key:
+- "sentiment": "positive" or "negative"
+
+Rules:
+- Use lowercase for the value.
+- Do not use markdown, code blocks, or any text before or after the JSON.
+
+Review:
+{text}
